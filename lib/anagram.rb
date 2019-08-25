@@ -12,4 +12,5 @@ class Anagram
     words_mix.collect do |words_mix
     @letters = @word.split("").sort
   end
+  end
 end
