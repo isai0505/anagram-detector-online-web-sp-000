@@ -8,9 +8,9 @@ class Anagram
     @letters = @word.split("").sort
   end
 
-  def match(words_mix)
-    words_mix.collect do |words_mix|
-    @letters == words_mix.split("").sort
+  def match(possible_anagrams)
+    possible_anagrams.collect do |possible_anagram|
+      @letters == possible_anagram.split("").sort
     end
   end
 end
