@@ -9,5 +9,7 @@ class Anagram
   end
 
   def match(words_mix)
+    words_mix.collect do |words_mix
+    @letters = @word.split("").sort
   end
 end
