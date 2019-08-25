@@ -7,6 +7,7 @@ class Anagram
     @word = word
     @letters = @word.split("").sort
   end
-  
 
+  def match(words_mix)
+  end
 end
