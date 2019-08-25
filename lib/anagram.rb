@@ -2,4 +2,11 @@
 
 class Anagram
   attr_accessor :word
+
+  def initialize(word)
+    @word = word
+    @letters = @word.split("").sort
+  end
+  
+
 end
