@@ -13,3 +13,4 @@ class Anagram
     @letters == words_mix.split("").sort
   end
 end
+end
